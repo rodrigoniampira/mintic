@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+#contenedor{
+    width: 1500px;
+    margin: auto;
+    margin-top: 20 px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+header {
+    height: 120px;
+    background: #3A625B;
+}
+
+header h1 {
+    font-size: 70px;
+    text-align: center;
+    line-height: 150px;
+    color: #25DAEC;
+   
+}
+#vertical_navbar{
+    background: #52BB8D;
+    height: 750px;
+    width: 400px;
+    float: right;
+}
+
+nav h2{
+     font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    color: #909411    ;
+    border-radius: 5px;
+    border-color: white;
+}
+#btn_Registro{
+    position: sticky;
+    float: none;
+
+    
+    background: green;
+    
+    display: inline-table;
+    width: 397px;
+    height: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    border-bottom: 5px solid #3eabc7;
+    margin: auto;
+    font-size: 30px;
+}
+#Contenido{
+    width: 950px;
+    height: 500px;
+    float: left;
+    background: blue;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#Contenido h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+aside {
+    position: relative;
+    top: 200;
+    width: 330px;
+    height: 500px;
+    background: green;
+    margin-top: 10px;
+    float: right;
+}
+
+#link_Registro”{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 60px;
+    background-color: #BC110A;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    border-bottom: 5px solid #800000;
+    margin: auto;
+    font-size: 34px;
+}
+
+aside h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+footer {
+    background: #000;
+    clear: both;
+
+}
+
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+
+}
+
+/*Estilo Registro.html*/
+
+#container{
+    width: 100px;
+    margin: auto;
+    margin-top: 20 px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #000;
+    float: right;
+}
+
+#tituloForm{
+     text-align: center;
+    font-size: 25px;
+   color: #DDE533;
+   font-style: italic;
+  
+}
+#nombreReg{
+    font-size: 25px;
+   color: white;
+}
+
+#password{
+     font-size: 25px;
+   color: white;
+  
+}
+#Confpassword{
+     font-size: 25px;
+   color: white;
+  
+}
+#btn_registrar_usuario{
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color:#CAC218 ;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    border-bottom: 5px solid #800000;
+    margin: auto;
+    font-size: 24px;
+}
