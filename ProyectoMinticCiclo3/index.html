@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		    <meta charset="UTF-8">
+		    <title>Proyecto Ciclo 3</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <link rel="stylesheet"  href="css/estilosIndex.css" media="screen">
+			<script type="text/javascript" src="js/formulario.js"></script>
+			<style type="text/css"> body { width:67%, height 100px GO } </style>
+			
+	</head>
+
+	<body >
+			<div id="contenedor">
+			<h1>Bienvenidos a nuestro Sitio Web MISIONTIC2022 UPB</h1>
+			<nav id="nav_drawer">
+				<h2>Menú Principal</h2>
+				<img src="img/logo_navbar.gif" id="logo_navbar" height="220px" width="450" alt="Machine Learning" title="Machine Learning MISIONTIC 2022 UPB">
+				<section class="form-register"><br><br>
+					<!--funcion redireccionamiento a formulario de inicio de sesión-->
+					<script type="text/javascript">
+						function redirInicioSesion() {
+							location.href="login.html";
+						}
+					</script>	
+					<button onclick= "redirInicioSesion();" name= "BotonIngreso" id="buttonIni_sesion">Iniciar Sesiòn</button>
+					<br><br>				
+					<!--funcion redireccionamiento a formulario de registro-->
+					<script type="text/javascript">
+						function redirformRegistro() {
+							location.href="registro.html";
+						}
+					</script>
+					<button onclick= "redirformRegistro();" name= "BotonRegistro" id="buttonreg_nav">Registrarse</button>
+					<br><br><br>
+					<p>¡¿Olvidaste la Contraseña?! <br>Recuperala desde <a href="#">   aquì</a></p>
+				</section>
+			</nav>
+			<section id="Contenido">
+				<div class="section1">
+					<h2>Los orígenes del Machine Learning
+						Por moderno que pueda parecer este campo, nos debemos remontar al año 1950 cuando el gran Alan Turing creó el “Test de Turing”. De forma que para pasar el test, una máquina debía engañar a un humano haciéndole creer que se encontraba delante de un humano en vez de un ordenador.</h2>
+				</div>
+				<div class="sticky-container">
+					<ul class="sticky">
+						<li>
+							<img src="img/facebook-circle.png" width="38" height="38">
+							<p><a href="https://www.facebook.com/programacionnet" target="_blank"><br>Facebook</a></p>
+						</li>
+						<li>
+							<img src="img/twitter-circle.png" width="38" height="38">
+							<p><a href="https://twitter.com/" target="_blank"><br>Twitter</a></p>
+						</li>
+						<li>
+							<img src="img/gplus-circle.png" width="38" height="38">
+							<p><a href="https://plus.google.com/" target="_blank"><br>Google+</a></p>
+						</li>
+						<li>
+							<img src="img/linkedin-circle.png" width="38" height="38">
+							<p><a href="https://www.linkedin.com/" target="_blank"><br>LinkedIn</a></p>
+						</li>
+						<li>
+							<img src="img/youtube-circle.png" width="38" height="38">
+							<p><a href="http://www.youtube.com/" target="_blank"><br>YouYube</a></p>
+						</li>
+						<li>
+							<img src="media/pin-circle.png" width="38" height="38">
+							<p><a href="https://www.pinterest.com/" target="_blank"><br>Pinterest</a></p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<aside>
+				<div clas="articulos">
+					<h2>¡¿Que es Machine Learning?!</h2>
+					<br>
+					<iframe id="video" width="440" height="440" src="https://www.youtube.com/embed/8_9v3_iiUHs" title="Machine Learning" frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h2>¡Entra al mundo de la "I.A"!</h2> <br>
+					<img src="img/tecnoMachine.gif" id="logo_navbar" height="167px" width="442" alt="Machine Learning" title="Machine Learning MISIONTIC 2022 UPB">
+				</div>		
+			</aside>
+			<footer>
+					<h2><spam id="titleFooter" color="red">Grupo No. 3 MISIONTIC2022</spam> <BR>UPB MINTIC-Ciclo 3: Desarrollo de software-202150-53627 
+					- ADMa_MINTICCiclo3DesaSoft-202150-53627</h2>
+			</footer>
+		</div>
+	</body>
+  <script type="text/javascript" src="Controlador/script.js"></script>
+</html>
